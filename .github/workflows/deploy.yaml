@@ -33,7 +33,7 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           port: ${{ secrets.SSH_PORT }}
           key: ${{ secrets.SSH_PRIVATE_KEY1 }}
-          source: "./"
+          source: "./assets/"
           target: "/home/rajendra/subdomains/dev.rajendrakhope.com/"
           rm: true
           strip_components: 3
